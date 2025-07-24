@@ -1,0 +1,12 @@
+---
+- name: Configuración completa del servidor
+  hosts: vm
+  become: yes
+
+  roles:
+    - devops      # Crea usuario devops con sudo
+    - firewall    # Habilita y configura el firewall UFW
+    - docker      # Instala Docker y añade al usuario devops al grupo docker
+    - nodejs      # Instala Node.js en la versión definida
+    - python      # Instala Python en la versión definida
+    - nginx       # Instala Nginx y genera una landing page dinámica
