@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Dynamic page title (customizable via group_vars/all/landing_page.yml) -->
+    <title>{{ landing_page_title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin-top: 100px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #4b3066;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main heading from a dynamic variable (see group_vars/all/landing_page.yml) -->
+    <h1>{{ landing_page_title }}</h1>
+
+    <!-- Author of the landing page (ver group_vars/all/landing_page.yml) -->
+    <p><em>By {{ landing_page_author }}</em></p>
+</body>
+</html>
