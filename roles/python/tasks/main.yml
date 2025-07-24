@@ -1,0 +1,5 @@
+---
+- name: Install Python
+  apt:
+    name: "python{{ python_version }}"
+    state: present

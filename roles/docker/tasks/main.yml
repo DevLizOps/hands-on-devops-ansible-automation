@@ -1,0 +1,18 @@
+---
+- name: Install Docker
+  apt:
+    name: ["docker.io"]
+    state: present
+    update_cache: yes
+
+- name: Enable Docker
+  service:
+    name: docker
+    state: started
+    enabled: yes
+
+- name: Add devops user to docker group
+  user:
+    name: devops
+    groups: docker
+    append: yes

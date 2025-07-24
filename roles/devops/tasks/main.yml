@@ -1,0 +1,8 @@
+---
+- name: Create devops user with sudo privileges
+  user:
+    name: devops
+    groups: sudo
+    append: yes
+    shell: /bin/bash
+    state: present

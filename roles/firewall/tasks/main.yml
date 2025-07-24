@@ -1,0 +1,23 @@
+---
+- name: Install UFW
+  apt:
+    name: ufw
+    state: present
+
+- name: Set default policy to DENY
+  ufw:
+    direction: incoming
+    policy: deny
+
+- name: Allow ports 22, 80, 443 through the firewall
+  ufw:
+    rule: allow
+    port: "{{ item }}"
+  loop:
+    - 22
+    - 80
+    - 443
+
+- name: Enable UFW
+  ufw:
+    state: enabled
