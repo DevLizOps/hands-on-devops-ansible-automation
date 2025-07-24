@@ -1,0 +1,5 @@
+---
+# Versions of the languages to be installed in the VM
+
+nodejs_version: "18.x"
+python_version: "3.10"
