@@ -2,7 +2,7 @@
 
 - [Haz clic aquí para la versión en Español](docs/README.es.md)
 
-# 🚀 Hands-On DevOps: Ansible Challenge
+# 🚀 Hands-On DevOps: Ansible Automation
 
 > Infrastructure Automation with Ansible, Vagrant, and VirtualBox
 >
