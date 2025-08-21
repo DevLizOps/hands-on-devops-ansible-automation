@@ -6,7 +6,7 @@
 
 > Automatización de Infraestructura con Ansible, Vagrant y VirtualBox
 >
-> *Repositorio basado en el **Día 6** del reto [90 Días de DevOps de Roxs].(https://github.com/roxsross/90daysdevopsbyroxs).*
+> *Repositorio basado en el **Día 6** del reto [90 Días de DevOps de Roxs](https://github.com/roxsross/90daysdevopsbyroxs).*
 >
 > *→ Puedes ver mi [diario técnico](https://github.com/DevLizOps/hands-on-devops-90days-logbook) donde documento mi proceso a lo largo del reto.*
 
